@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 서버 config
+ * host, user, passowrd, port
  */
 @Getter
 @Configuration

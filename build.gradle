@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.solomonm'
-version = '0.5.1-SNAPSHOT'
+version = '0.6.1-SNAPSHOT'
 
 java {
 	toolchain {
@@ -37,6 +37,8 @@ dependencies {
 	implementation 'com.jcraft:jsch:0.1.55'
 	// spring mail
 	implementation 'org.springframework.boot:spring-boot-starter-mail:3.3.5'
+	// WebClient API 호출
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 
 
 

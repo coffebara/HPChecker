@@ -45,4 +45,14 @@ public class GlobalErrorManagerV2 {
 
         errorCodeList.clear();
     }
+
+    /**
+     * 에러의 유무를 확인하는 메서드
+     *
+     * @return boolean 에러의 유무
+     */
+    public boolean isEmpty() {
+
+        return errorCodeList.isEmpty();
+    }
 }

@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * ENUM 에러 코드
+ * ENUM 에러 코드 및 에러 메세지
  */
 @Getter
 @RequiredArgsConstructor
